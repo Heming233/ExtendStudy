@@ -7,6 +7,6 @@ public class Tom extends SnowMan{
     public static void main(String[] args) {
         Tom tom=new Tom("tom",10,1,2,2);
         System.out.println(tom.getName());
-        SnowMan.SnowMelt(tom);
+        SnowMan.SnowMelt(tom);//向上转型
     }
 }
